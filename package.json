@@ -1,7 +1,7 @@
 {
   "name": "customer-management-app",
   "version": "1.0.0",
-  "homepage": "https://vatsanchetlur.github.io/customer-management",
+  "homepage": "https://vatsanchetlur.github.io/customermgmt",
   "description": "A simple application for managing customer records.",
   "main": "src/index.js",
   "scripts": {
