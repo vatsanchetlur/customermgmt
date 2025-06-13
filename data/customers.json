@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Mike Johnson", "email": "mikej@abc.com", "password": "mikej" },
+  { "id": 2, "name": "Cindy Smith", "email": "cinds@abc.com", "password": "cinds" },
+  { "id": 3, "name": "Julio Martin", "email": "julim@abc.com", "password": "julim" }
+]

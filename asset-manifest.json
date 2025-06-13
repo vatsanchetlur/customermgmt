@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/customermgmt/static/css/main.2dc7fd3c.css",
+    "main.js": "/customermgmt/static/js/main.e1c3d44b.js",
+    "index.html": "/customermgmt/index.html",
+    "main.2dc7fd3c.css.map": "/customermgmt/static/css/main.2dc7fd3c.css.map",
+    "main.e1c3d44b.js.map": "/customermgmt/static/js/main.e1c3d44b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc7fd3c.css",
+    "static/js/main.e1c3d44b.js"
+  ]
+}
