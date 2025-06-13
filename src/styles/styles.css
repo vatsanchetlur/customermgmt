@@ -1,0 +1,173 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.customer-list-section {
+    background-color: #d3d3d3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.customer-list-section h2 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.customer-table th,
+.customer-table td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.customer-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.customer-table tr {
+    cursor: pointer;
+}
+
+.customer-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.customer-table tr.selected {
+    font-weight: bold;
+    background-color: #e6f3ff;
+}
+
+.customer-form-section {
+    background-color: #d3d3d3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.customer-form-section h2 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 60px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    text-align: left; /* Or center, depending on your layout */
+    /* Ensure it aligns under the email input if that's the desire */
+    /* You might need to adjust the parent .form-group or add a specific container */
+}
+
+/* Server error message styling */
+.server-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #721c24;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.button-group button {
+    padding: 8px 16px;
+    border: 1px solid #999;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-group button:hover:not(:disabled) {
+    background-color: #e0e0e0;
+}
+
+.button-group button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Password toggle styles */
+.password-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.password-text {
+    flex: 1;
+    font-family: monospace; /* Makes masked characters look uniform */
+}
+
+.password-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    min-width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-toggle:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.password-toggle:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 1px;
+}
+
+/* Ensure password column has enough width */
+.customer-table th:nth-child(3),
+.customer-table td:nth-child(3) {
+    min-width: 120px;
+}

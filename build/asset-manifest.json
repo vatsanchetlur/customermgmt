@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/customer-management/static/css/main.af393356.css",
+    "main.js": "/customer-management/static/js/main.7b48e545.js",
+    "index.html": "/customer-management/index.html",
+    "main.af393356.css.map": "/customer-management/static/css/main.af393356.css.map",
+    "main.7b48e545.js.map": "/customer-management/static/js/main.7b48e545.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af393356.css",
+    "static/js/main.7b48e545.js"
+  ]
+}
